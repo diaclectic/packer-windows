@@ -13,7 +13,7 @@
       "shutdown_command": "shutdown /s /t 10 /f /d p:4:1 /c \"Packer Shutdown\"",
       "guest_os_type": "windows8srv-64",
       "tools_upload_flavor": "windows",
-      "disk_size": 61440,
+      "disk_size": 20480,
       "vnc_port_min": 5900,
       "vnc_port_max": 5980,
       "floppy_files": [
@@ -42,7 +42,7 @@
       "ssh_wait_timeout": "6h",
       "shutdown_command": "shutdown /s /t 10 /f /d p:4:1 /c \"Packer Shutdown\"",
       "guest_os_type": "Windows2012_64",
-      "disk_size": 61440,
+      "disk_size": 20480,
       "floppy_files": [
         "./answer_files/2012_r2_hyperv/Autounattend.xml",
         "./scripts/microsoft-updates.bat",
